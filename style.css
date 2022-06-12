@@ -251,6 +251,7 @@ color: #FFFFFF;
    .my_photo, .contacts {
      margin: 0;
      width: 60%;
+     margin-bottom: 20px;
    }
    .heading_main, .subheading {
      margin-left: auto;
@@ -258,7 +259,15 @@ color: #FFFFFF;
      align-items: center;
      display: flex;
      justify-content: center;
-
+     font-size: 40px;
+     height: auto;
+    }
+    .subheading{
+      font-size: 24px;
+    }
+    .main_text {
+      height: auto;
+      margin-bottom: 20px;
     }
     .info {
       margin-top: 10px;
@@ -273,13 +282,20 @@ color: #FFFFFF;
     .skills {
       margin-top: 15px;
     }
+    .edication_and_experience {
+      margin-left: 10%;
+      margin-right: 10%;
+    }
+    .college {
+      font-size: 16px;
+    }
     .list_skills {
       text-align: start;
-      margin-left: 15%;
-      margin-right: 15%;
+      margin-left: 10%;
+      margin-right: 10%;
     }
     .projects {
-      width: auto;
+      width: 100%;
       height: auto;
     }
     .project_item {
@@ -290,6 +306,39 @@ color: #FFFFFF;
       margin-top: 10px;
     }
     img {
-      width: 80%;
+      width: 350px;
+      margin-left: auto;
+    }
+    .view_project {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: start;
+      align-items: center;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+    }
+    .project_item {
+      width: 100%;
+    }
+    .tools_head {
+      font-family: 'Genos';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 28px;
+      color: #FFFFFF;
+      margin-bottom: auto;
+    }
+    .tool {
+      font-family: 'Genos';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 25px;
+    }
+    .about {
+    line-height: 28px;
     }
   }
