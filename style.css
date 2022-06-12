@@ -213,5 +213,68 @@ color: #FFFFFF;
     margin-top: 0;
     margin-bottom: 10px;
   }
- 
-  
+  @media screen and (min-width: 768px) and (max-width: 1085px) {
+    .container {
+      width: 780px;
+    }
+    .info, .projects {
+    width: 800px;
+    }
+    .main_text {
+      width: 430px;
+      height: 525px;
+    }
+    .my_photo, .contacts {
+      width: 300px;
+      margin-left: 20px;
+      
+    }
+    img {
+      width: 400px;
+    }
+    .about_project {
+      font-size: 18px;
+    }
+  }
+
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+   .main_pages {
+     
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     margin: 0;
+     background: #052124;
+     width: 100%;
+   }
+   .my_photo, .contacts {
+     margin: 0;
+     width: 60%;
+   }
+   .heading_main, .subheading {
+     margin-left: auto;
+     margin-right: auto;
+     align-items: center;
+     display: flex;
+     justify-content: center;
+
+    }
+    .info {
+      margin-top: 10px;
+      display: flex;
+      flex-direction: column;
+      width: auto
+    }
+    .heading {
+      text-align: center;
+      width: 100%;
+    }
+    .skills {
+      margin-top: 15px;
+    }
+    .list_skills {
+      text-align: start;
+      margin-left: 25%;
+    }
+  }
