@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gayathri&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+.wraper {
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFF4E0;;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0px auto;
+    box-sizing: content-box;
+  }
+  .main_pages {
+    margin-top: 30px;
+    display: grid;
+    grid-template-areas: 
+    "a b"
+    "a c"
+ 
+  }
+  .main_text {
+    grid-area: a;
+    background: #052124;
+    height: 600px;
+    width: 640px;
+  }
+  .heading_main {
+    margin-top: 91px;
+    margin-left: 70px;
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 122.5%;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+  }
+  .subheading {
+    margin-left: 70px;
+    font-family: 'Genos';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 38px;
+    color: #FFFFFF;
+  }
+ 
+  .my_photo {
+    grid-area: b;
+    margin-left: 70px;
+    width: 359px;
+  }
+  .contacts {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    grid-area: c;
+    margin-top: 47px;
+    margin-left: 70px;
+    width: 359px;
+    height: 100px;
+    background: #052124;
+  }
+  
+  .icon_telegramm, .icon_git, .icon_gmail  {
+    width: 45px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+/* -----PORTFOLIO----- */
+
+  .portfolio {
+    margin-top: 130px;
+  }
+  
+  .my_portfolio {
+    font-family: 'Genos';
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 78px;
+    color: #000000;
+  }
+  img {
+    margin-left: 40px;
+    width: 580px;
+    /* height: 290px; */
+  }
+  .slider {
+    display: flex;
+  }
+  .button_left {
+    margin-right: 30px;
+  }
+  .projects {
+    display: flex;
+    flex-direction: column;
+    width: 1069px;
+    height: 1200px;
+    background: #052124;
+  }
+  .project_item {
+    display: flex;
+    margin-bottom: 66px;
+  }
+  .view_project {
+    width: 630px;
+  }
+  a {
+    text-decoration: none;
+  }
+  .name_project {
+    /* text-align: center; */
+    display: inline-block;
+    border-bottom: #FFFFFF solid;
+    margin-left: 40px;
+    font-family: 'Genos';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #FFFFFF;
+  }
+  .name_project:hover {
+    color: #878484;
+    border-bottom: #878484 solid;
+  }
+  .about_project {
+    width: 400px;
+    margin-top: 63px;
+    margin-left: 35px;
+    font-family: 'Genos';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+
+color: #FFFFFF;
+  }
+  .about{
+    font-size: 20px;
+   
+  }
+
+  /* -----INFO----- */
+
+  .info {
+    margin-top: 50px;
+    display: flex;
+    width: 1069px;
+  }
+  .skills {
+    margin-top: 40px;
+  }
+  .skills_heading{
+    text-align: left; 
+    font-family: 'Genos';
+    font-weight: 400;
+    font-size: 34px;
+    color: #000000;
+  }
+  
+  .list_skills {
+    padding: 0;
+  }
+  .additional_info {
+    margin: 0;
+    margin-bottom: 5px;
+  }
+  .name_skill {
+    /* font-family: sans-serif; */
+    font-family: 'Genos';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+    margin: 0;
+    margin-top: 15px;
+  }
+  /* li {
+    list-style-type: none;
+    /* Убираем маркеры */
+
+  .more_skill {
+    
+    font-size: 18px;
+    margin: 0;
+    margin-left: 30px;
+    /* margin-bottom: 25px; */
+  }
+  .edication_and_experience {
+    margin-top: 40px;
+    margin-left: 65px;
+  }
+ 
+  .heading {
+    text-align: left; 
+    font-family: 'Genos';
+    font-weight: 400;
+    font-size: 30px;
+    color: #000000;
+    margin-bottom: 20px;
+  }
+  .college, .hexlet {
+    font-size: 18px;
+  }
+  p {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+ 
+  
