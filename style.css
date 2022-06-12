@@ -309,6 +309,9 @@ color: #FFFFFF;
       width: 350px;
       margin-left: auto;
     }
+    .portfolio {
+      margin-top: 40px;
+    }
     .view_project {
       display: flex;
       flex-direction: column;
