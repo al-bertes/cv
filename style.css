@@ -295,7 +295,7 @@ color: #FFFFFF;
       margin-right: 10%;
     }
     .more_skill {
-      font-size: 16px;
+      font-size: 18px;
     }
     .projects {
       width: 100%;
@@ -307,6 +307,7 @@ color: #FFFFFF;
     }
     .about_project {
       margin-top: 10px;
+      width: 100%;
     }
     img {
       width: 350px;
