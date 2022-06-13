@@ -6,7 +6,7 @@
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    background-color: #FFF4E0;;
+    background-color: #FFF4E0;
   }
   
   .container {
@@ -260,7 +260,7 @@ color: #FFFFFF;
      display: flex;
      justify-content: center;
      font-size: 40px;
-     height: auto;
+     height: auto;  
     }
     .subheading{
       font-size: 16px;
@@ -275,9 +275,33 @@ color: #FFFFFF;
       flex-direction: column;
       width: auto
     }
+    .head-wrap {
+      position: relative;
+      margin: 50px 0;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .head-wrap:before {
+      content: '';
+      position: absolute;
+      top: 20px;
+      right: 0;
+      width: 100vw;
+      height: 1px;
+      background: #000;
+    }
     .heading {
-      text-align: center;
-      width: 100%;
+      position: relative;
+       display: inline;
+       
+      margin: 0;
+      margin-left: 7px;
+      margin-right: 7px;
+      
+      background-color: #FFF4E0;
     }
     .skills {
       margin-top: 15px;
@@ -291,7 +315,7 @@ color: #FFFFFF;
     }
     .list_skills {
       text-align: start;
-      margin-left: 10%;
+      margin-left: 15%;
       margin-right: 10%;
     }
     .more_skill {
@@ -329,6 +353,9 @@ color: #FFFFFF;
     }
     .project_item {
       width: 100%;
+    }
+    .edication_and_experience {
+      margin-top: 0;
     }
     .tools_head {
       font-family: 'Genos';
