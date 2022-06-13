@@ -263,7 +263,7 @@ color: #FFFFFF;
      height: auto;
     }
     .subheading{
-      font-size: 24px;
+      font-size: 16px;
     }
     .main_text {
       height: auto;
@@ -294,6 +294,9 @@ color: #FFFFFF;
       margin-left: 10%;
       margin-right: 10%;
     }
+    .more_skill {
+      font-size: 16px;
+    }
     .projects {
       width: 100%;
       height: auto;
@@ -308,6 +311,7 @@ color: #FFFFFF;
     img {
       width: 350px;
       margin-left: auto;
+      margin-right: auto;
     }
     .portfolio {
       margin-top: 40px;
@@ -338,7 +342,7 @@ color: #FFFFFF;
       font-family: 'Genos';
       font-style: normal;
       font-weight: 400;
-      font-size: 20px;
+      font-size: 16px;
       line-height: 25px;
     }
     .name_project {
@@ -352,5 +356,9 @@ color: #FFFFFF;
     }
     .about {
     line-height: 28px;
+    font-size: 16px ;
+    }
+    p{
+      font-size: 16px;
     }
   }
