@@ -278,7 +278,7 @@ color: #FFFFFF;
     .head-wrap {
       position: relative;
       margin: 50px 0;
-      margin-bottom: 12px;
+      margin-bottom: 9px;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -287,7 +287,7 @@ color: #FFFFFF;
     .head-wrap:before {
       content: '';
       position: absolute;
-      top: 12px;
+      top: 9px;
       right: auto;
       width: 100vw;
       height: 1px;
@@ -302,7 +302,7 @@ color: #FFFFFF;
       background-color: #FFF4E0;
       padding-left: 15px;
       padding-right: 15px;
-      font-size: 24px;
+      font-size: 18px;
     }
     .skills {
       margin-top: 15px;
