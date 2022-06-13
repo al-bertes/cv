@@ -31,6 +31,7 @@
   .heading_main {
     margin-top: 91px;
     margin-left: 70px;
+    margin-bottom: 60px;
     font-family: 'Playfair Display', serif;
     font-style: normal;
     font-weight: 400;
@@ -40,6 +41,7 @@
     color: #FFFFFF;
   }
   .subheading {
+    
     margin-left: 70px;
     font-family: 'Genos';
     font-style: normal;
